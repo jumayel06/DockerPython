@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  mycontainer1:
+    image: myimage1:latest
+    container_name: mycontainer1
+    ports:
+      - 5000:5000
+    volumes:
+      - /Users/test-docker:/data
